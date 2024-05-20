@@ -1,0 +1,20 @@
+public class QuestaoTres {
+	private int a;
+	private int b;
+	
+	public void setSomar(int somar) {
+		somar = a + b;
+	}
+	
+	public void setSubtrair(int subtrair) {
+		subtrair = a - b;
+	}
+	
+	public void setMultiplicar(int multiplicar) {
+		multiplicar = a * b;
+	}
+	
+	public void setDividir(int dividir) {
+		dividir = a / b;
+	}
+}
