@@ -1,0 +1,39 @@
+public class QuestaoDez {
+	private String nome;
+	private String raca;
+	private int idade;
+	
+	public void QuestaoDez(String nome, String raca, int idade) {
+		this.nome = nome;
+		this.raca = raca;
+		this.idade = idade;
+	}
+	
+	public String nome() {
+		return nome;
+	}
+	
+	public String raca() {
+		return raca;
+	}
+	
+	public int idade() {
+		return idade;
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public void setRaca(String novaRaca) {
+		this.raca = novaRaca;
+	}
+	
+	public void setIdade(int novaIdade) {
+		this.idade = novaIdade;
+	}
+	
+	public void latir() {
+		System.out.println("au au!")
+	}
+}
