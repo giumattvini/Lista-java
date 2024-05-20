@@ -1,0 +1,34 @@
+public class QuestaoQuarta {
+	private double base;
+	private double altura;
+	
+	public QuestaoQuarta(double base, double altura) {
+		this.base = base;
+		this.altura = altura;
+	}
+	
+	public double getBase() {
+		return base;
+	}
+	
+	public double getAltura() {
+		return altura;
+	}
+	
+	public void setBase( double novaBase) {
+		this.base = novaBase;
+	}
+	
+	public void setAltura( double novaAltura) {
+		this.altura = novaAltura;
+	}
+	
+	public void calcularArea(double areaCalcular) {
+		areaCalcular = base * altura;
+	}
+	
+	public void calcularPerimetro(double areaPerimetro) {
+		areaPerimetro = base * 2 + altura * 2;
+	}
+	
+}
