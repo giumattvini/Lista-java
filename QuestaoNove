@@ -1,0 +1,28 @@
+public class QuestaoNove {
+	private String nome;
+	private String CPF;
+	private int dataNascimento;
+	
+	public void QuestaoNove(String nome, String CPF, int dataNascimento) {
+		this.nome = nome;
+		this.CPF = CPF;
+		this.dataNascimento = dataNascimento;
+	}
+	
+	public String nome() {
+		return nome();
+	}
+	
+	public String CPF() {
+		return CPF();
+	}
+	
+	public int dataNascimento() {
+		return dataNascimento()
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+}
